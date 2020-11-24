@@ -1,0 +1,38 @@
+input:checked+label{
+  background-color: red;
+}
+
+.flex-container {
+   display: flex;
+   height: 180px;
+   width: 600px;
+ 
+  flex-wrap: wrap;
+ 
+   background-color: #ffffff;
+
+ }
+ 
+ .flex-container > div {
+  
+   color: rgb(0, 0, 0);
+   width: 50px;
+   margin: 10px;
+   text-align: left;
+   line-height: 70px;
+   font-size: 20px;
+ 
+  }
+  .first {
+    background-color: green; 
+   }
+  
+  .last {
+    background-color: green; 
+   }
+   .others {
+    background-color: yellow; 
+   }
+
+   
+  
